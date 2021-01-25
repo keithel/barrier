@@ -253,7 +253,7 @@
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap resource="Barrier.qrc">:/res/icons/16x16/padlock.png</pixmap>
+         <pixmap resource="../res/Barrier.qrc">:/res/icons/16x16/padlock.png</pixmap>
         </property>
        </widget>
       </item>
@@ -388,7 +388,7 @@
   </action>
   <action name="m_pActionShowLog">
    <property name="text">
-       <string>Show &amp;Log</string>
+    <string>Show &amp;Log</string>
    </property>
    <property name="toolTip">
     <string>Show Log</string>
@@ -399,7 +399,7 @@
   </action>
  </widget>
  <resources>
-  <include location="Barrier.qrc"/>
+  <include location="../res/Barrier.qrc"/>
  </resources>
  <connections>
   <connection>
